@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940DC2C71BF71217001FD57D /* Chemistry-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */; };
+		940DC2C91BF716B6001FD57D /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DC2C81BF716B6001FD57D /* DrawView.swift */; };
 		944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCC1BF707F700C599AB /* AppDelegate.swift */; };
 		944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCE1BF707F700C599AB /* ViewController.swift */; };
 		944B5CD21BF707F700C599AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD01BF707F700C599AB /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Chemistry-Background.jpg"; path = "../../Downloads/Chemistry-Background.jpg"; sourceTree = "<group>"; };
+		940DC2C81BF716B6001FD57D /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 		944B5CC91BF707F700C599AB /* chem-type.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chem-type.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B5CCC1BF707F700C599AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944B5CCE1BF707F700C599AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				944B5CCC1BF707F700C599AB /* AppDelegate.swift */,
 				944B5CCE1BF707F700C599AB /* ViewController.swift */,
 				944B5CD01BF707F700C599AB /* Main.storyboard */,
+				940DC2C81BF716B6001FD57D /* DrawView.swift */,
+				940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */,
 				944B5CD61BF707F700C599AB /* Assets.xcassets */,
 				944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */,
 				944B5CDB1BF707F700C599AB /* Info.plist */,
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940DC2C71BF71217001FD57D /* Chemistry-Background.jpg in Resources */,
 				944B5CDA1BF707F700C599AB /* LaunchScreen.storyboard in Resources */,
 				944B5CD71BF707F700C599AB /* Assets.xcassets in Resources */,
 				944B5CD21BF707F700C599AB /* Main.storyboard in Resources */,
@@ -264,6 +271,7 @@
 			files = (
 				944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */,
 				944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */,
+				940DC2C91BF716B6001FD57D /* DrawView.swift in Sources */,
 				944B5CD51BF707F700C599AB /* chem_type.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "chem-type/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
@@ -417,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "chem-type/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
@@ -491,6 +501,7 @@
 				944B5CF61BF707F700C599AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		944B5CF71BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +510,7 @@
 				944B5CF91BF707F700C599AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		944B5CFA1BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +519,7 @@
 				944B5CFC1BF707F700C599AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
