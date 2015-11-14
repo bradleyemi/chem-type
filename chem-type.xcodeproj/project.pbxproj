@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCC1BF707F700C599AB /* AppDelegate.swift */; };
+		944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCE1BF707F700C599AB /* ViewController.swift */; };
+		944B5CD21BF707F700C599AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD01BF707F700C599AB /* Main.storyboard */; };
+		944B5CD51BF707F700C599AB /* chem_type.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CD31BF707F700C599AB /* chem_type.xcdatamodeld */; };
+		944B5CD71BF707F700C599AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD61BF707F700C599AB /* Assets.xcassets */; };
+		944B5CDA1BF707F700C599AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */; };
+		944B5CE51BF707F700C599AB /* chem_typeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CE41BF707F700C599AB /* chem_typeTests.swift */; };
+		944B5CF01BF707F700C599AB /* chem_typeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CEF1BF707F700C599AB /* chem_typeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		944B5CE11BF707F700C599AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B5CC11BF707F700C599AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B5CC81BF707F700C599AB;
+			remoteInfo = "chem-type";
+		};
+		944B5CEC1BF707F700C599AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 944B5CC11BF707F700C599AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 944B5CC81BF707F700C599AB;
+			remoteInfo = "chem-type";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944B5CC91BF707F700C599AB /* chem-type.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chem-type.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B5CCC1BF707F700C599AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		944B5CCE1BF707F700C599AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		944B5CD11BF707F700C599AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		944B5CD41BF707F700C599AB /* chem_type.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chem_type.xcdatamodel; sourceTree = "<group>"; };
+		944B5CD61BF707F700C599AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		944B5CD91BF707F700C599AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		944B5CDB1BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944B5CE01BF707F700C599AB /* chem-typeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chem-typeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B5CE41BF707F700C599AB /* chem_typeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_typeTests.swift; sourceTree = "<group>"; };
+		944B5CE61BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944B5CEB1BF707F700C599AB /* chem-typeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chem-typeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		944B5CEF1BF707F700C599AB /* chem_typeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_typeUITests.swift; sourceTree = "<group>"; };
+		944B5CF11BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944B5CC61BF707F700C599AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CDD1BF707F700C599AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CE81BF707F700C599AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		944B5CC01BF707F700C599AB = {
+			isa = PBXGroup;
+			children = (
+				944B5CCB1BF707F700C599AB /* chem-type */,
+				944B5CE31BF707F700C599AB /* chem-typeTests */,
+				944B5CEE1BF707F700C599AB /* chem-typeUITests */,
+				944B5CCA1BF707F700C599AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944B5CCA1BF707F700C599AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944B5CC91BF707F700C599AB /* chem-type.app */,
+				944B5CE01BF707F700C599AB /* chem-typeTests.xctest */,
+				944B5CEB1BF707F700C599AB /* chem-typeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		944B5CCB1BF707F700C599AB /* chem-type */ = {
+			isa = PBXGroup;
+			children = (
+				944B5CCC1BF707F700C599AB /* AppDelegate.swift */,
+				944B5CCE1BF707F700C599AB /* ViewController.swift */,
+				944B5CD01BF707F700C599AB /* Main.storyboard */,
+				944B5CD61BF707F700C599AB /* Assets.xcassets */,
+				944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */,
+				944B5CDB1BF707F700C599AB /* Info.plist */,
+				944B5CD31BF707F700C599AB /* chem_type.xcdatamodeld */,
+			);
+			path = "chem-type";
+			sourceTree = "<group>";
+		};
+		944B5CE31BF707F700C599AB /* chem-typeTests */ = {
+			isa = PBXGroup;
+			children = (
+				944B5CE41BF707F700C599AB /* chem_typeTests.swift */,
+				944B5CE61BF707F700C599AB /* Info.plist */,
+			);
+			path = "chem-typeTests";
+			sourceTree = "<group>";
+		};
+		944B5CEE1BF707F700C599AB /* chem-typeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				944B5CEF1BF707F700C599AB /* chem_typeUITests.swift */,
+				944B5CF11BF707F700C599AB /* Info.plist */,
+			);
+			path = "chem-typeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944B5CC81BF707F700C599AB /* chem-type */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B5CF41BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-type" */;
+			buildPhases = (
+				944B5CC51BF707F700C599AB /* Sources */,
+				944B5CC61BF707F700C599AB /* Frameworks */,
+				944B5CC71BF707F700C599AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "chem-type";
+			productName = "chem-type";
+			productReference = 944B5CC91BF707F700C599AB /* chem-type.app */;
+			productType = "com.apple.product-type.application";
+		};
+		944B5CDF1BF707F700C599AB /* chem-typeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B5CF71BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeTests" */;
+			buildPhases = (
+				944B5CDC1BF707F700C599AB /* Sources */,
+				944B5CDD1BF707F700C599AB /* Frameworks */,
+				944B5CDE1BF707F700C599AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B5CE21BF707F700C599AB /* PBXTargetDependency */,
+			);
+			name = "chem-typeTests";
+			productName = "chem-typeTests";
+			productReference = 944B5CE01BF707F700C599AB /* chem-typeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		944B5CEA1BF707F700C599AB /* chem-typeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944B5CFA1BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeUITests" */;
+			buildPhases = (
+				944B5CE71BF707F700C599AB /* Sources */,
+				944B5CE81BF707F700C599AB /* Frameworks */,
+				944B5CE91BF707F700C599AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				944B5CED1BF707F700C599AB /* PBXTargetDependency */,
+			);
+			name = "chem-typeUITests";
+			productName = "chem-typeUITests";
+			productReference = 944B5CEB1BF707F700C599AB /* chem-typeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		944B5CC11BF707F700C599AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = triki;
+				TargetAttributes = {
+					944B5CC81BF707F700C599AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZJ2LZP47BV;
+					};
+					944B5CDF1BF707F700C599AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZJ2LZP47BV;
+						TestTargetID = 944B5CC81BF707F700C599AB;
+					};
+					944B5CEA1BF707F700C599AB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZJ2LZP47BV;
+						TestTargetID = 944B5CC81BF707F700C599AB;
+					};
+				};
+			};
+			buildConfigurationList = 944B5CC41BF707F700C599AB /* Build configuration list for PBXProject "chem-type" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 944B5CC01BF707F700C599AB;
+			productRefGroup = 944B5CCA1BF707F700C599AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944B5CC81BF707F700C599AB /* chem-type */,
+				944B5CDF1BF707F700C599AB /* chem-typeTests */,
+				944B5CEA1BF707F700C599AB /* chem-typeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944B5CC71BF707F700C599AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B5CDA1BF707F700C599AB /* LaunchScreen.storyboard in Resources */,
+				944B5CD71BF707F700C599AB /* Assets.xcassets in Resources */,
+				944B5CD21BF707F700C599AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CDE1BF707F700C599AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CE91BF707F700C599AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944B5CC51BF707F700C599AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */,
+				944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */,
+				944B5CD51BF707F700C599AB /* chem_type.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CDC1BF707F700C599AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B5CE51BF707F700C599AB /* chem_typeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		944B5CE71BF707F700C599AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944B5CF01BF707F700C599AB /* chem_typeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		944B5CE21BF707F700C599AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B5CC81BF707F700C599AB /* chem-type */;
+			targetProxy = 944B5CE11BF707F700C599AB /* PBXContainerItemProxy */;
+		};
+		944B5CED1BF707F700C599AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 944B5CC81BF707F700C599AB /* chem-type */;
+			targetProxy = 944B5CEC1BF707F700C599AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		944B5CD01BF707F700C599AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944B5CD11BF707F700C599AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944B5CD91BF707F700C599AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944B5CF21BF707F700C599AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		944B5CF31BF707F700C599AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		944B5CF51BF707F700C599AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "chem-type/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		944B5CF61BF707F700C599AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "chem-type/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		944B5CF81BF707F700C599AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "chem-typeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-typeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chem-type.app/chem-type";
+			};
+			name = Debug;
+		};
+		944B5CF91BF707F700C599AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "chem-typeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-typeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chem-type.app/chem-type";
+			};
+			name = Release;
+		};
+		944B5CFB1BF707F700C599AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "chem-typeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-typeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "chem-type";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		944B5CFC1BF707F700C599AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "chem-typeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-typeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "chem-type";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944B5CC41BF707F700C599AB /* Build configuration list for PBXProject "chem-type" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B5CF21BF707F700C599AB /* Debug */,
+				944B5CF31BF707F700C599AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944B5CF41BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-type" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B5CF51BF707F700C599AB /* Debug */,
+				944B5CF61BF707F700C599AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		944B5CF71BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B5CF81BF707F700C599AB /* Debug */,
+				944B5CF91BF707F700C599AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		944B5CFA1BF707F700C599AB /* Build configuration list for PBXNativeTarget "chem-typeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944B5CFB1BF707F700C599AB /* Debug */,
+				944B5CFC1BF707F700C599AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		944B5CD31BF707F700C599AB /* chem_type.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				944B5CD41BF707F700C599AB /* chem_type.xcdatamodel */,
+			);
+			currentVersion = 944B5CD41BF707F700C599AB /* chem_type.xcdatamodel */;
+			path = chem_type.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 944B5CC11BF707F700C599AB /* Project object */;
+}
