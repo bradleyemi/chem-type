@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="acetone" translatesAutoresizingMaskIntoConstraints="NO" id="GKT-DI-dBw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Chemistry-Background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GKT-DI-dBw">
                                 <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
                                 <animations/>
                             </imageView>
@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="125"/>
-                                <state key="normal" title="Chem-Type" backgroundImage="Chemistry-Background.jpg">
+                                <state key="normal" title="Chem-Type">
                                     <color key="titleColor" red="0.072167210280895233" green="0.22183853387832642" blue="0.052330382168292999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -171,6 +171,5 @@
     </scenes>
     <resources>
         <image name="Chemistry-Background.jpg" width="3500" height="2188"/>
-        <image name="acetone" width="667" height="642"/>
     </resources>
 </document>

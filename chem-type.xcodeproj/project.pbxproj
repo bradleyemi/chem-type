@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940DC2C71BF71217001FD57D /* Chemistry-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */; };
 		940DC2C91BF716B6001FD57D /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940DC2C81BF716B6001FD57D /* DrawView.swift */; };
+		941A62731BFDFE1900A41BB8 /* Chemistry-Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 941A62721BFDFE1900A41BB8 /* Chemistry-Background.jpg */; };
 		944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCC1BF707F700C599AB /* AppDelegate.swift */; };
 		944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CCE1BF707F700C599AB /* ViewController.swift */; };
 		944B5CD21BF707F700C599AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD01BF707F700C599AB /* Main.storyboard */; };
@@ -17,6 +17,20 @@
 		944B5CDA1BF707F700C599AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */; };
 		944B5CE51BF707F700C599AB /* chem_typeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CE41BF707F700C599AB /* chem_typeTests.swift */; };
 		944B5CF01BF707F700C599AB /* chem_typeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944B5CEF1BF707F700C599AB /* chem_typeUITests.swift */; };
+		94A1E9131BFA763F00FA2710 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9121BFA763F00FA2710 /* Line.swift */; };
+		94A1E9371BFA767B00FA2710 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9161BFA767B00FA2710 /* AFHTTPRequestOperation.m */; };
+		94A1E9381BFA767B00FA2710 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9181BFA767B00FA2710 /* AFHTTPRequestOperationManager.m */; };
+		94A1E9391BFA767B00FA2710 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E91A1BFA767B00FA2710 /* AFHTTPSessionManager.m */; };
+		94A1E93A1BFA767B00FA2710 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E91D1BFA767B00FA2710 /* AFNetworkReachabilityManager.m */; };
+		94A1E93B1BFA767B00FA2710 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E91F1BFA767B00FA2710 /* AFSecurityPolicy.m */; };
+		94A1E93C1BFA767B00FA2710 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9211BFA767B00FA2710 /* AFURLConnectionOperation.m */; };
+		94A1E93D1BFA767B00FA2710 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9231BFA767B00FA2710 /* AFURLRequestSerialization.m */; };
+		94A1E93E1BFA767B00FA2710 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9251BFA767B00FA2710 /* AFURLResponseSerialization.m */; };
+		94A1E93F1BFA767B00FA2710 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9271BFA767B00FA2710 /* AFURLSessionManager.m */; };
+		94A1E9451BFA767B00FA2710 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E92F1BFA767B00FA2710 /* DrawViewController.swift */; };
+		94A1E9461BFA767B00FA2710 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 94A1E9301BFA767B00FA2710 /* Info.plist */; };
+		94A1E94A1BFA767B00FA2710 /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E9351BFA767B00FA2710 /* Toucan.swift */; };
+		94A1E94F1BFA797400FA2710 /* ProcessedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A1E94E1BFA797400FA2710 /* ProcessedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Chemistry-Background.jpg"; path = "../../Downloads/Chemistry-Background.jpg"; sourceTree = "<group>"; };
 		940DC2C81BF716B6001FD57D /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		941A62721BFDFE1900A41BB8 /* Chemistry-Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chemistry-Background.jpg"; sourceTree = "<group>"; };
 		944B5CC91BF707F700C599AB /* chem-type.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chem-type.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B5CCC1BF707F700C599AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944B5CCE1BF707F700C599AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,13 +60,37 @@
 		944B5CD41BF707F700C599AB /* chem_type.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chem_type.xcdatamodel; sourceTree = "<group>"; };
 		944B5CD61BF707F700C599AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944B5CD91BF707F700C599AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		944B5CDB1BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944B5CE01BF707F700C599AB /* chem-typeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chem-typeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B5CE41BF707F700C599AB /* chem_typeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_typeTests.swift; sourceTree = "<group>"; };
 		944B5CE61BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944B5CEB1BF707F700C599AB /* chem-typeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chem-typeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		944B5CEF1BF707F700C599AB /* chem_typeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chem_typeUITests.swift; sourceTree = "<group>"; };
 		944B5CF11BF707F700C599AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A1E90D1BFA75AF00FA2710 /* chem-type-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "chem-type-Bridging-Header.h"; sourceTree = "<group>"; };
+		94A1E9121BFA763F00FA2710 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Line.swift; path = "chem-type/Line.swift"; sourceTree = "<group>"; };
+		94A1E9161BFA767B00FA2710 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = "chem-type/AFHTTPRequestOperation.m"; sourceTree = "<group>"; };
+		94A1E9171BFA767B00FA2710 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = "chem-type/AFHTTPRequestOperationManager.h"; sourceTree = "<group>"; };
+		94A1E9181BFA767B00FA2710 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = "chem-type/AFHTTPRequestOperationManager.m"; sourceTree = "<group>"; };
+		94A1E9191BFA767B00FA2710 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = "chem-type/AFHTTPSessionManager.h"; sourceTree = "<group>"; };
+		94A1E91A1BFA767B00FA2710 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = "chem-type/AFHTTPSessionManager.m"; sourceTree = "<group>"; };
+		94A1E91B1BFA767B00FA2710 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = "chem-type/AFNetworking.h"; sourceTree = "<group>"; };
+		94A1E91C1BFA767B00FA2710 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = "chem-type/AFNetworkReachabilityManager.h"; sourceTree = "<group>"; };
+		94A1E91D1BFA767B00FA2710 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = "chem-type/AFNetworkReachabilityManager.m"; sourceTree = "<group>"; };
+		94A1E91E1BFA767B00FA2710 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = "chem-type/AFSecurityPolicy.h"; sourceTree = "<group>"; };
+		94A1E91F1BFA767B00FA2710 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = "chem-type/AFSecurityPolicy.m"; sourceTree = "<group>"; };
+		94A1E9201BFA767B00FA2710 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = "chem-type/AFURLConnectionOperation.h"; sourceTree = "<group>"; };
+		94A1E9211BFA767B00FA2710 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = "chem-type/AFURLConnectionOperation.m"; sourceTree = "<group>"; };
+		94A1E9221BFA767B00FA2710 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = "chem-type/AFURLRequestSerialization.h"; sourceTree = "<group>"; };
+		94A1E9231BFA767B00FA2710 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = "chem-type/AFURLRequestSerialization.m"; sourceTree = "<group>"; };
+		94A1E9241BFA767B00FA2710 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = "chem-type/AFURLResponseSerialization.h"; sourceTree = "<group>"; };
+		94A1E9251BFA767B00FA2710 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = "chem-type/AFURLResponseSerialization.m"; sourceTree = "<group>"; };
+		94A1E9261BFA767B00FA2710 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = "chem-type/AFURLSessionManager.h"; sourceTree = "<group>"; };
+		94A1E9271BFA767B00FA2710 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = "chem-type/AFURLSessionManager.m"; sourceTree = "<group>"; };
+		94A1E92F1BFA767B00FA2710 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawViewController.swift; path = "chem-type/DrawViewController.swift"; sourceTree = "<group>"; };
+		94A1E9301BFA767B00FA2710 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "chem-type/Info.plist"; sourceTree = "<group>"; };
+		94A1E9341BFA767B00FA2710 /* Toucan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Toucan.h; path = "chem-type/Toucan.h"; sourceTree = "<group>"; };
+		94A1E9351BFA767B00FA2710 /* Toucan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Toucan.swift; path = "chem-type/Toucan.swift"; sourceTree = "<group>"; };
+		94A1E94E1BFA797400FA2710 /* ProcessedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessedViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +145,34 @@
 				944B5CCE1BF707F700C599AB /* ViewController.swift */,
 				944B5CD01BF707F700C599AB /* Main.storyboard */,
 				940DC2C81BF716B6001FD57D /* DrawView.swift */,
-				940DC2C61BF71217001FD57D /* Chemistry-Background.jpg */,
 				944B5CD61BF707F700C599AB /* Assets.xcassets */,
+				941A62721BFDFE1900A41BB8 /* Chemistry-Background.jpg */,
+				94A1E9121BFA763F00FA2710 /* Line.swift */,
+				94A1E94E1BFA797400FA2710 /* ProcessedViewController.swift */,
+				94A1E9161BFA767B00FA2710 /* AFHTTPRequestOperation.m */,
+				94A1E9171BFA767B00FA2710 /* AFHTTPRequestOperationManager.h */,
+				94A1E9181BFA767B00FA2710 /* AFHTTPRequestOperationManager.m */,
+				94A1E9191BFA767B00FA2710 /* AFHTTPSessionManager.h */,
+				94A1E91A1BFA767B00FA2710 /* AFHTTPSessionManager.m */,
+				94A1E91B1BFA767B00FA2710 /* AFNetworking.h */,
+				94A1E91C1BFA767B00FA2710 /* AFNetworkReachabilityManager.h */,
+				94A1E91D1BFA767B00FA2710 /* AFNetworkReachabilityManager.m */,
+				94A1E90D1BFA75AF00FA2710 /* chem-type-Bridging-Header.h */,
+				94A1E91E1BFA767B00FA2710 /* AFSecurityPolicy.h */,
+				94A1E91F1BFA767B00FA2710 /* AFSecurityPolicy.m */,
+				94A1E9201BFA767B00FA2710 /* AFURLConnectionOperation.h */,
+				94A1E9211BFA767B00FA2710 /* AFURLConnectionOperation.m */,
+				94A1E9221BFA767B00FA2710 /* AFURLRequestSerialization.h */,
+				94A1E9231BFA767B00FA2710 /* AFURLRequestSerialization.m */,
+				94A1E9241BFA767B00FA2710 /* AFURLResponseSerialization.h */,
+				94A1E9251BFA767B00FA2710 /* AFURLResponseSerialization.m */,
+				94A1E9261BFA767B00FA2710 /* AFURLSessionManager.h */,
+				94A1E9271BFA767B00FA2710 /* AFURLSessionManager.m */,
+				94A1E92F1BFA767B00FA2710 /* DrawViewController.swift */,
+				94A1E9301BFA767B00FA2710 /* Info.plist */,
+				94A1E9341BFA767B00FA2710 /* Toucan.h */,
+				94A1E9351BFA767B00FA2710 /* Toucan.swift */,
 				944B5CD81BF707F700C599AB /* LaunchScreen.storyboard */,
-				944B5CDB1BF707F700C599AB /* Info.plist */,
 				944B5CD31BF707F700C599AB /* chem_type.xcdatamodeld */,
 			);
 			path = "chem-type";
@@ -241,8 +303,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940DC2C71BF71217001FD57D /* Chemistry-Background.jpg in Resources */,
+				94A1E9461BFA767B00FA2710 /* Info.plist in Resources */,
 				944B5CDA1BF707F700C599AB /* LaunchScreen.storyboard in Resources */,
+				941A62731BFDFE1900A41BB8 /* Chemistry-Background.jpg in Resources */,
 				944B5CD71BF707F700C599AB /* Assets.xcassets in Resources */,
 				944B5CD21BF707F700C599AB /* Main.storyboard in Resources */,
 			);
@@ -269,10 +332,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94A1E93C1BFA767B00FA2710 /* AFURLConnectionOperation.m in Sources */,
+				94A1E9371BFA767B00FA2710 /* AFHTTPRequestOperation.m in Sources */,
+				94A1E93A1BFA767B00FA2710 /* AFNetworkReachabilityManager.m in Sources */,
+				94A1E93F1BFA767B00FA2710 /* AFURLSessionManager.m in Sources */,
+				94A1E93D1BFA767B00FA2710 /* AFURLRequestSerialization.m in Sources */,
 				944B5CCF1BF707F700C599AB /* ViewController.swift in Sources */,
+				94A1E94F1BFA797400FA2710 /* ProcessedViewController.swift in Sources */,
+				94A1E93E1BFA767B00FA2710 /* AFURLResponseSerialization.m in Sources */,
 				944B5CCD1BF707F700C599AB /* AppDelegate.swift in Sources */,
 				940DC2C91BF716B6001FD57D /* DrawView.swift in Sources */,
+				94A1E94A1BFA767B00FA2710 /* Toucan.swift in Sources */,
+				94A1E9381BFA767B00FA2710 /* AFHTTPRequestOperationManager.m in Sources */,
+				94A1E9451BFA767B00FA2710 /* DrawViewController.swift in Sources */,
+				94A1E93B1BFA767B00FA2710 /* AFSecurityPolicy.m in Sources */,
 				944B5CD51BF707F700C599AB /* chem_type.xcdatamodeld in Sources */,
+				94A1E9131BFA763F00FA2710 /* Line.swift in Sources */,
+				94A1E9391BFA767B00FA2710 /* AFHTTPSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +490,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "chem-type/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chem-type/chem-type-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Debug;
 		};
@@ -426,11 +509,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "chem-type/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "trikicorp.chem-type";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "chem-type/chem-type-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Release;
 		};
